@@ -7,6 +7,9 @@ public class AccountService {
         if (username == null || username.trim().isEmpty()) {
             System.out.println("Username is null or empty");
             return false;
+        } else if (username.length() < 3) {
+            System.out.println("Username is too short");
+            return false;
         }
         // password require more 6 char
         if (password == null || password.length() < 6) {
