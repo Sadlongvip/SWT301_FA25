@@ -4,3 +4,4 @@ john123,pass123,john@example.com,true
 alice,short,alice@mail.com,false
 bob123,password,bobmail.com,false
 carol,password,carol@domain.com,true
+carol,,carol@domain.com,false
