@@ -1,0 +1,6 @@
+firstName, lastName, userEmail, gender, phoneNumber,dateOfBirth, currentAddress, exceptResult
+Nguyen, Thanh, sad@gmail.com, Male, 0123456789, 04 Nov 2000, Hello, success
+Thanh,Long,hello@gmail.com,Female, 0123456789, 04 Nov 2000, Hello, success
+Haha,Haha, sad@gmail, Male, 0123456789, 04 Nov 2000, Hello, error
+"", Thanh, sad@gmail, Male, 0123456789, 04 Nov 2000, Hello,error
+Nguyen, Thanh, sad@gmail, Other, 0123456789, 04 Nov 2000, Hello, success
