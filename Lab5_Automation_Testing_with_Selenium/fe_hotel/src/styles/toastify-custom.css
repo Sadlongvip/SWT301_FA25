@@ -1,0 +1,72 @@
+/* Custom Toastify Theme for LuxeStay */
+
+.Toastify__toast {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
+  font-family: 'Inter', sans-serif !important;
+  padding: 16px !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+  color: #ffffff !important;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%) !important;
+  color: #ffffff !important;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%) !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%) !important;
+  color: #ffffff !important;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.9) !important;
+  height: 4px !important;
+}
+
+.Toastify__toast-body {
+  padding: 4px 8px !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  font-weight: 500 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+  color: #ffffff !important;
+}
+
+.Toastify__close-button {
+  opacity: 0.9 !important;
+  color: #ffffff !important;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1 !important;
+}
+
+/* Animation enhancements */
+@keyframes toastSlideIn {
+  from {
+    transform: translate3d(110%, 0, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.Toastify__toast--top-right {
+  animation: toastSlideIn 0.4s ease-out !important;
+}
+
+
