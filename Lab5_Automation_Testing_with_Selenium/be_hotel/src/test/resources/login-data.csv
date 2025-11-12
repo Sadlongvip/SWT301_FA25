@@ -1,0 +1,3 @@
+email,password,expectedResult
+admin@gmail.com,admin123,success
+invalid@example.com,wrongpassword,failure
